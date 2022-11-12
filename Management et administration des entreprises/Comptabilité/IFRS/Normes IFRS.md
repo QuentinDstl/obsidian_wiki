@@ -12,4 +12,7 @@ Normes
 A destination des actionnaires les normes IFRS ...
 
 Les IFRS :
+- [[IFRS 3]]
 - [[IFRS 6]]
+- [[IFRS 15]]
+- [[IFRS 16]]
