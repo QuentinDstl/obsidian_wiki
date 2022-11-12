@@ -47,7 +47,7 @@ Recyclage
   
 Économie de fonctionnalité :
 --------------------------------------------------
-**On vend une performance et non plus un produit** (on assure un résultat à un prix)
+**On vend une performance et non plus un produit** (on assure un résultat à un prix) :
 → On cherche donc alors à maximiser l'usage de notre produit.
-→ On ne transfert pas la propriété au client.  
-→ L'offre est orientée usage et non plus produit (axé service)
+→ On ne transfert pas la propriété au client.
+→ L'offre est orientée usage et non plus produit (axé service).
