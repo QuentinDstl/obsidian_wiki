@@ -1,10 +1,3 @@
-**Externalisation (long terme) ≠ Sous-traitance (court terme)**
-- Sous-traitance → Pour soutenir des périodes intense de production (peut etre ponctuelle)
-
-Les deux mènnent à une perte de contrôle → ON N'EXTERNALISE PAS SON ❤ DE METIER
-
-License d'éxploitation ≠ Intégration
-
 1. Rationalité Limité
 2. Incertitude (environnementale ou comportementale)
 3. Opportunisme
@@ -13,15 +6,10 @@ License d'éxploitation ≠ Intégration
 >  rester agile et flexible pour pouvoir s'adapter aux malentendu (2)
 6. Asymétrie de l'Information
 
+7. Aléa moral : action caché de l'agent vers le principal (qui lui ne peut pas vérifier)
 Ainsi 1+5+2 => 3
 Ou 3 => 5
 
-Avantages de l'Externalisation :
-> ↘ Coûts de production + ↘ Coûts de coordination
-> Gain de savoir faire + qualité + souplesse
 
-Inconvénients de l'Externalisation :
-> ↗ Coûts de transaction
-> Perte de contrôle, d'autonomie et de connaissance
-
----
+Mondialisation :
+uniformisations des produits proposées sur le marchés -> c'est maintenant les méthodes économiques via les services qui apporte la différence (le service fidélise beaucoup plus que le produit)
