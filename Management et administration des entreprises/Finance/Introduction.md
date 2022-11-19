@@ -1,9 +1,9 @@
 https://theconversation.com/fr/search?adapter=pg3&date=all⟨uage=fr&q=jerome+caby&sort=recency  
   
-On travaille sur la comptabilité française -> compta social  
+On travaille sur la comptabilité française → compta social  
 Liasse fiscale  
   
-Diagnostic -> proposition -> pas de nature financier  
+Diagnostic → proposition → pas de nature financier  
   
 Les sociétés d'affacturage :  
 l'escompte : on escompte des créances fournisseur.  

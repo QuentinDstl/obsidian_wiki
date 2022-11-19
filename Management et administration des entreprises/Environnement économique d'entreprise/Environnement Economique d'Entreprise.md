@@ -12,4 +12,4 @@ Ou 3 => 5
 
 
 Mondialisation :
-uniformisations des produits proposées sur le marchés -> c'est maintenant les méthodes économiques via les services qui apporte la différence (le service fidélise beaucoup plus que le produit)
+uniformisations des produits proposées sur le marchés → c'est maintenant les méthodes économiques via les services qui apporte la différence (le service fidélise beaucoup plus que le produit)
