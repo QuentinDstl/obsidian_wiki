@@ -49,7 +49,7 @@ Les 3 Ratios de Rentabilité :
 
 1. **ROA (Return on assets) :**
 $$ \text{Rentabilité économique} = \frac{\text{CAF ou RN}}{\text{Total Bilan}} $$
-$$ \Leftrightarrow ROA = \frac{R_{ésultat}N_{et}}{C_{hiffre}A_{ffaire}} \times \frac{C_{hiffre}A_{ffaire}}{A_{ctif}T_{otal}} = \text{marge nette} \times \text{rotation de l'actif} $$
+$$ \Leftrightarrow ROA = \frac{R_{ésultat}N_{et}}{C_{hiffre}A_{ffaire}} × \frac{C_{hiffre}A_{ffaire}}{A_{ctif}T_{otal}} = \text{marge nette} \times \text{rotation de l'actif} $$
 > la marge nette → STABLE
 > la rotation de l'actif → VARIABLE
 
