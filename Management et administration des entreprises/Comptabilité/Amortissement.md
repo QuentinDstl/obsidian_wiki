@@ -10,6 +10,7 @@ Calcul dotation
 ====================
 
 **Linéaire :**
+
 $$ \frac{VNC_{initiale} - \text{Valeur résiduelle}}{\text{tps d’amortissement}} → \text{prorata temporis} $$
 
 **Unité d’Œuvre (UO) :**
