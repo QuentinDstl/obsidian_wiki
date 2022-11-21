@@ -14,10 +14,12 @@ Calcul dotation
 $$ \frac{VNC_{initiale} - \text{Valeur résiduelle}}{\text{tps d’amortissement}} → \text{prorata temporis} $$
 
 **Unité d’Œuvre (UO) :**
+
 $$ (VNC_{initiale} - \text{Valeur résiduelle}) × \frac{Utilisation _N}{Utilisation_{totale}} $$
 
 **Dégressif :**
-	par rapport au linéaire (coeff 1,75) (*prorata temporis*)
+
+par rapport au linéaire (coeff 1,75) (*prorata temporis*)
 
 
 Attention :
