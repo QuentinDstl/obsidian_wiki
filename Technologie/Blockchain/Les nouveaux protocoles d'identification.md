@@ -16,32 +16,39 @@ C’est ainsi qu’en plus d’exporter une partie du calcul et des validations 
 
 Cette application précise est bien loin de notre problème d'identification, mais nous y reviendrons. Ainsi, lorsqu'un nœud exécute une transaction en dehors d'Ethereum, il soumet une preuve de validité qui garantit grâce au ZK proof la légitimité de l'opération.
 
-Commençons par expliquer la logique derrière le concept de Zero Knowlege Proof en trouvant une réponse à la question : comment prouver que j'ai une information sans avoir à la divulguer ? Un exemple simple est concret est celui de ["la grotte d'ali baba"](https://fr.wikipedia.org/wiki/Preuve_%C3%A0_divulgation_nulle_de_connaissance#Exemples) (conf. [article source](https://pages.cs.wisc.edu/~mkowalcz/628.pdf)) qui permet de comprendre le principe généralisé.
-
-Théorisé en 1985, il n'est loin d'être considéré comme une nouveauté. C'est cependant, les protocoles qui en découlent qui innovent de part leurs ...
+Commençons par expliquer la logique derrière le concept de Zero Knowlege Proof en trouvant une réponse à la question : comment prouver que j'ai une information sans avoir à la divulguer ? Un exemple simple est concret est celui de ["la grotte d'ali baba"](https://fr.wikipedia.org/wiki/Preuve_%C3%A0_divulgation_nulle_de_connaissance#Exemples) (conf. [article source](https://pages.cs.wisc.edu/~mkowalcz/628.pdf)) qui permet de comprendre le principe généralisé. Théorisé en 1985, il n'est loin d'être considéré comme une nouveauté, mais c'est les protocoles qui en découlent qui, nous le verrons, innovent :
 
 ZK SNARK
 -------------------
 → **Zero-Knowledge Succinct Non-interactive Argument of Knowledge**.
-(conf. [PDF](https://arxiv.org/pdf/2202.06877.pdf))
+(conf. [PDF](https://arxiv.org/pdf/2202.06877.pdf)) - 2012
+
+Pour simplifier, c'est en résolvant le hachage d'un nombre aléatoire que l'utilisateur peut se justifier auprès du vérificateur. La preuve de la réponse lui sera renvoyée sans révéler sa valeur.
 
 Succinct :
->
+> Relatif à l'optimisation et à l'efficacité. Ainsi, une preuve SNARK peut être vérifiée plus rapidement que son témoin NP original ([nondeterministic polynomial](https://en.wikipedia.org/wiki/NP_(complexity))) . Les méthodes de vérification succincte garantissent que la taille de la déclaration peut être limitée indépendamment du nombre d'éxecution (conf. [équivalent SNARG](https://eprint.iacr.org/2022/383.pdf)). 
 
 Non-interactive :
->
+> Dans ce cas précis, une unique interraction entre l'utilisateur et le vérificateur suffit.
+
+C'est un protocole qui utilise les ECC (cryptographie à courbes elliptiques) donc il faut faire attention aux ordinateurs quantiques.
 
 ZK STARK
 -------------------
 → **Zero-Knowledge Succinct Transparent Argument of Knowledge**.
-(conf. [PDF](https://eprint.iacr.org/2018/046.pdf))
+(conf. [PDF](https://eprint.iacr.org/2018/046.pdf)) - 2018
 
 Transparent :
-> 
+> À la différence de ZK-SNARK, il peut fonctionner sans la mise en place d'une CRS (Common Reference String). Ce qui est remplacé par un caractère aléatoire vérifiable publiquement pour définir les paramètres de génération et de vérification des preuves.
 
-Les ZK-STARK sont "transparents", car ils peuvent fonctionner sans la mise en place d'une chaîne de référence commune (CRS). Au lieu de cela, les ZK-STARK s'appuient sur un caractère aléatoire vérifiable publiquement pour définir les paramètres de génération et de vérification des preuves.
+ZK SNARG
+-------------------
+https://eprint.iacr.org/2022/383.pdf
 
-Les ZK-STARK sont également protégés contre les ordinateurs quantiques, tandis que la cryptographie à courbes elliptiques (ECC) utilisée dans les ZK-SNARK est largement considérée comme sensible aux attaques des ordinateurs quantiques. L'inconvénient des ZK-STARKs est qu'elles produisent des preuves de plus grande taille, ce qui est plus coûteux à vérifier sur Ethereum.
+à voir : 
+https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf
+
+2022
 
 ```
 StarkNet : "StarkNet is a permissionless decentralized Validity-Rollup (often referred to as ZK-Rollup). It operates as an L2 network over Ethereum, enabling any dApp to achieve unlimited scale for its computation – without compromising Ethereum's composability and security."
