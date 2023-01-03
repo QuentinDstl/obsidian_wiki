@@ -72,7 +72,10 @@ Ratios de solvabilité
 ---------------------------------
 
 1. **Taux d'endettement :**
-$$ \frac{\text{Dette financière totale + EENE}}{\text{Total Bilan + EENE}}, \text{Dette financière totale = Dette > 1 an + Dette < 1 an} $$
+
+$$
+\frac{\text{Dette financière totale + EENE}}{\text{Total Bilan + EENE}}, \text{Dette financière totale = Dette > 1 an + Dette < 1 an}
+$$
 > `EENE` est hors bilan donc `|Dette|>1an` est dans le Bilan
 
 > Total bilan = Actif net = passif
