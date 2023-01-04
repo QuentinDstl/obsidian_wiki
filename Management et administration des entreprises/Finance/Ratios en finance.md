@@ -1,8 +1,11 @@
+https://www.compta-facile.com/ratios-financiers-compte-de-resultat/#ratioactivite
+
 Ratio d'activité
 --------------------------
 
 
 Différence entre rentabilité et ratio de marge :
+
 $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac{\text{Flux}}{\text{Stock}} ≠ \text{Ratio de marge} = \frac{CdR}{CdR} $$
 
 ---
@@ -14,12 +17,14 @@ $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac
 	🥐: rentabilité économique
 	🍔: 
 	$$ \text{Rentabilité économique} = \frac{\text{RN ou CAF}}{\text{Total Bilan}} $$
+	
 	$$ \Leftrightarrow ROA = \frac{R_{ésultat}N_{et}}{C_{hiffre}A_{ffaire}} × \frac{C_{hiffre}A_{ffaire}}{A_{ctif}T_{otal}} = \text{marge nette} \times \text{rotation de l'actif} $$
 	> la marge nette → STABLE
 	> la rotation de l'actif → VARIABLE
 
 2. **ROIC (Return on invested capital) rentabilité d'exploitation :**
 	🥐: rentabilité d'exploitation
+	
 	$$ \text{Rentabilité d'exploitation} = \frac{\text{EBIT ou EBITDA ou NOPAT}}{\text{Capital economique}_{(BFR+IMMO)}} $$
 	> CE ≔ Le capital économique représente les immos brutes d'exploitations + BFR d'exploitation
 
@@ -27,6 +32,7 @@ $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac
 
 3. **ROE (Return on Equity) :**
 	🥐: rentabilité financière.
+	
 	$$ \text{Rentabilité financière} = \frac{\text{Résultat Net}}{\text{Fond Propre}} $$
 	> ≈ 30% Dividandes (pour payer les actionnaires) 
 	> ≈ 70% Réserves → Fond propres (appartient aux actionnaires)
@@ -36,10 +42,10 @@ $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac
 Ratios de marge
 ---------------------------
 	La marge traduit l'efficacité de l'entreprise.
-
+	
 	$$ \text{Ratio de marge} = \frac{CR_{t}}{CR_{t+1}} = \frac{flux}{flux} = \frac{SIG}{CA} $$
-	> SIG : solde intermédiaire de gestion
-
+	 *SIG : solde intermédiaire de gestion*
+	
 	$$ Variation = \frac{CA_{t+1}}{CA_t} - 1 $$
 
 1. **Marge d'EBE (ou mage brut d'exploitation) :**
@@ -76,17 +82,24 @@ Stocks / CA
 
 
 Ratios de solvabilité
----------------------------------
+===========================
 
-1. **Taux d'endettement :**
+Ratios de liquidité :
+----------------------------------------
 
-	$$ \frac{\text{Dette financière totale + EENE}}{\text{Total Bilan + EENE}}, \text{Dette financière totale = Dette > 1 an + Dette < 1 an} $$
+Current ratio : Client + Stock / Fournisseur
 
-	> `EENE` est hors bilan donc `|Dette|>1an` est dans le Bilan
+Quick ratio : Cash / Fournisseur
 
-	> Total bilan = Actif net = passif
+Ratios d'analyse du BFR :
+----------------------------------------
 
-2. **Taux d'indépendance financière :**
+
+
+Ratios d'endettement :
+----------------------------------------
+
+1. **Taux d'indépendance financière :**
 
 	$$ \frac{\text{Dette financière totale + EENE + Dette d'exploitation (fournisseur)}}{Total Bilan + EENE} $$
 
@@ -107,3 +120,6 @@ Ratios de solvabilité
 	$$ \frac{\text{Intérêts nets}}{CA} $$
 	Return on fixed asset : RN/ IMMO
 	Asset Turn Over : CA/Total Bilan
+
+
+Poid de la dette
