@@ -14,3 +14,5 @@ Société tierce qui finance les créances, l'assurance-crédit ou la trésoreri
 www.pappers.fr  
   
 ebita 10 a 13% correct moins = pas bien et négatif = start-up ou dans le rouge (mais ça dépend des secteurs)
+
+CA - MP = VA (grossièrement)

@@ -1,9 +1,3 @@
-https://www.compta-facile.com/ratios-financiers-compte-de-resultat/#ratioactivite
-
-Ratio d'activité
---------------------------
-
-
 Différence entre rentabilité et ratio de marge :
 
 $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac{\text{Flux}}{\text{Stock}} ≠ \text{Ratio de marge} = \frac{CdR}{CdR} $$
@@ -14,45 +8,40 @@ $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac
 --------------------------------------
 
 1. **ROA (Return on assets) :**
-	🥐: rentabilité économique
-	🍔: 
-	$$ \text{Rentabilité économique} = \frac{\text{RN ou CAF}}{\text{Total Bilan}} $$
+	🇫🇷 : rentabilité économique 
+	
+	$$ \text{Rentabilité économique} = \frac{\text{RN (ou CAF)}}{\text{Total Bilan}} $$
 	
 	$$ \Leftrightarrow ROA = \frac{R_{ésultat}N_{et}}{C_{hiffre}A_{ffaire}} × \frac{C_{hiffre}A_{ffaire}}{A_{ctif}T_{otal}} = \text{marge nette} \times \text{rotation de l'actif} $$
 	> la marge nette → STABLE
 	> la rotation de l'actif → VARIABLE
 
-2. **ROIC (Return on invested capital) rentabilité d'exploitation :**
-	🥐: rentabilité d'exploitation
+2. **ROIC (Return on invested capital) :**
 	
-	$$ \text{Rentabilité d'exploitation} = \frac{\text{EBIT ou EBITDA ou NOPAT}}{\text{Capital economique}_{(BFR+IMMO)}} $$
-	> CE ≔ Le capital économique représente les immos brutes d'exploitations + BFR d'exploitation
-
-	> NOPAT (Net Operating Profit After Tax) :
+	$$ \text{Rentabilité d'exploitation} = \frac{\text{EBIT (ou EBITDA)}}{\text{CE}_{(BFR+IMMO)}} $$
+	> CE ≔ Le capital économique représente les immobilisations brutes d'exploitations + BFR d'exploitation
 
 3. **ROE (Return on Equity) :**
-	🥐: rentabilité financière.
 	
 	$$ \text{Rentabilité financière} = \frac{\text{Résultat Net}}{\text{Fond Propre}} $$
 	> ≈ 30% Dividandes (pour payer les actionnaires) 
-	> ≈ 70% Réserves → Fond propres (appartient aux actionnaires)
+	> ≈ 70% Réserves → Fond propres (ou capitaux propres) (appartient aux actionnaires)
 
 ---
 
 Ratios de marge
 ---------------------------
-	La marge traduit l'efficacité de l'entreprise.
+	La marge traduit l'efficacité de l'entreprise. 
 	
-	$$ \text{Ratio de marge} = \frac{CR_{t}}{CR_{t+1}} = \frac{flux}{flux} = \frac{SIG}{CA} $$
-	 *SIG : solde intermédiaire de gestion*
+	$$ \text{Ratio de marge} = \frac{CdR_{t}}{CdR_{t+1}} = \frac{flux}{flux} = \frac{SIG}{CA} $$
+> 	SIG : solde intermédiaire de gestion
 	
 	$$ Variation = \frac{CA_{t+1}}{CA_t} - 1 $$
 
 1. **Marge d'EBE (ou mage brut d'exploitation) :**
-
+	Permet d'apprécier le partage de la valeur ajoutée entre les actionnaires et les salariés.
+	
 	$$ \frac{EBE}{CA}$$
-
-	> permet d'apprécier le partage de la valeur ajoutée entre les actionnaires et les salariés.
 
 2. **Marge d'EBIT (ou marge d'exploitation/opérationnelle) :**
 
@@ -74,12 +63,14 @@ Ratios d'activité économique
 
 Bilan / CA
 
-BFR / CA
+BFR / CA x 365 = 
 
 Clients / CA
 
 Stocks / CA 
 
+
+---
 
 Ratios de solvabilité
 ===========================
@@ -100,11 +91,11 @@ Ratios d'endettement :
 ----------------------------------------
 
 1. **Taux d'indépendance financière :**
-
+	mesure le rapport entre les ressources internes et externes (doit être <1).
 	$$ \frac{\text{Dette financière totale + EENE + Dette d'exploitation (fournisseur)}}{Total Bilan + EENE} $$
 
 3. **Taux d'autonomie financière :**
-
+levier financier en opposition avec effet de massu
 	$$ \frac{\text{FP}}{Dette > 1 an} = \frac{1}{\text{Levier Financier}}, \text{Levier financier} = \frac{Dette > 1 an}{CP} $$
 
 4. **Part des CBC dans endettement :**
@@ -114,7 +105,9 @@ Ratios d'endettement :
 	> TN = Dispo - Dette < 1 an
 
 6. **Capacité de remboursement :**
-	$$ \frac{|Dette| > 1an + EENE}{CAF} $$
+	mesure le temps nécessaire pour rembourser les dettes financières.
+	
+	$$ \frac{\text{Endettement net}}{CAF}, \text{Endettement net = |Dette| > 1an + EENE} $$
 
 7. **Intérêts nets / CA :**
 	$$ \frac{\text{Intérêts nets}}{CA} $$
@@ -123,3 +116,10 @@ Ratios d'endettement :
 
 
 Poid de la dette
+
+**Rotation de l'actif :**
+
+$$ \frac{CA}{\text{Actif Total}}$$
+
+ROIC et ROCE presque égal (car IMMO et BFR en brut et de l'autre coté NET)
+

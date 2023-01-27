@@ -5,6 +5,20 @@
 | Clients < 1 an | Fournisseurs < 1 an |
 | Dispo < 1 an | Dette < 1 an |
 
+FRNG = Dette > 1 an + FP - IMMO
+
+BFR = Stock + Clients < 1 an - Fournisseurs
+
+Treso Net = Dispo - Dette < 1 an
+Treso Net = Tréso Active - Tréso Pasive
+Treso Net = FRNG - BFR
+
+actif d'exploitation → avances et acomptes versés = les fournisseurs qu'on a payé en avance.
+
+passif d'exploitation → avances et acomptes versés = les clients qui nous ont payé en avance.
+
+la treso net est normalement négative (par définission de l'entreprise)
+
 Prêt bancaire → banque commerciale
 
 Obligation (quand on veut aller plus loin que le prêt bancaire) → contracte une dette auprès des investisseurs
@@ -19,17 +33,10 @@ Broker (Courtier) = met en relation celui qui vend son action et celui qui achè
 Compte de résultat (charges/produits) -transformé→  SIG (solde intermédiaire de gestion)
 Bilan(actif/passif) -transformé→ Bilan fonctionnel
 
-SIG tableau
+SIG (Solde Intermédiaire de Gestion) tableau qui se construit à partir du compte de résultat
 
 CAF tableau
 On remet l'amortissement parce que c'est purement fictif et les charge exceptionnel car on veut que du récurrent.
-
-$$ 
-\text{Ratio de marge} = \frac{CR_{t}}{CR_{t+1}} = \frac{SIG}{CA}
-$$
-$$
-	Variation = \frac{CA_{t+1}}{CA_t} - 1
-$$
 
 participation = dividende pour les employés qui ne sont pas actionnaires (redistribution de la richesse)
 
@@ -38,33 +45,7 @@ produit execpt. exemple : je revends un actif qui a une VNC (valeur nette compta
 **CAF :**
 
 EBITDA : Earnings before interest, taxes, depreciation and amortization
-
-
-Les 3 Ratios de Rentabilité :
-------------------------------------------------
-
-> $$ \text{Rentabilité} = \frac{\text{Compte de résultat}}{\text{Bilan}} = \frac{\text{Flux}}{\text{Stock}} ≠ \text{Ratio de marge} = \frac{CdR}{CdR} $$
-
----
-
-1. **ROA (Return on assets) :**
-$$ \text{Rentabilité économique} = \frac{\text{CAF ou RN}}{\text{Total Bilan}} $$
-$$ \Leftrightarrow ROA = \frac{R_{ésultat}N_{et}}{C_{hiffre}A_{ffaire}} × \frac{C_{hiffre}A_{ffaire}}{A_{ctif}T_{otal}} = \text{marge nette} \times \text{rotation de l'actif} $$
-> la marge nette → STABLE
-> la rotation de l'actif → VARIABLE
-
----
-
-2. **ROIC (Return on invested capital) :**
-$$ \text{Rentabilité d'exploitation} = \frac{\text{EBIT ou EBITDA ou NOPAT}}{\text{Capital economique}_{(BFR+IMMO)}} $$
-NOPAT
-
----
-
-3. **"Rentabilité de l'actionnaire" :**
-$$ \text{Rentabilité financière} = \frac{\text{Résultat Net}}{\text{Fond Propre}} $$
-> ≈ 30% Dividandes (pour payer les actionnaires) 
-> ≈ 70% Réserves → Fond propres (appartient aux actionnaires)
+EBIT = REX
 
 
 Renta éco = 756/7216 (on prend le net)
@@ -84,5 +65,7 @@ une trésorerie nette positive demande commentaire
 
 FNRG souvent positif (ainsi le stable ne finance pas entièrement le stable)
 
+EENE = créance client : quand les clients ne nous payent pas et nous on paye nos fournisseurs à temps donc ça impact notre solvabilité. On va voir la banque et elle nous donne des concours banquaire court (sans garantie) → CBC
 
-
+EENE et CBC = dettes à moins d'un an
+affacturage c'est la responsabilité de la banque à la différence des EENE
